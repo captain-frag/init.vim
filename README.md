@@ -1,6 +1,6 @@
 SETTING UP
 
-Requirements
+Requirements\n
 vim
 
 Set up
@@ -13,5 +13,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 curl https://raw.githubusercontent.com/prathammpurohit/init.vim/main/init.vim >> ~/.vimrc && vim ~/.vimrc
 ```
 
-:PlugInstall
+:PlugInstall\n
 to install all the plugins, and yeah you are pretty good to go now
