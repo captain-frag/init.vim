@@ -16,6 +16,6 @@ curl https://raw.githubusercontent.com/prathammpurohit/init.vim/main/init.vim > 
 ```
 > Cooked!
 
-![Rick cooked for you](./rick.jpeg)
+![Rick cooked for you](/static/rick-gif.gif)
 
 > I am working on the nvim configuration too, and it will be available soon.
