@@ -65,8 +65,6 @@ let mapleader = " "
 nnoremap <leader>/ :tabnew<CR>:NERDTree<CR>
 nnoremap <leader>e :NERDTree<CR>
 nnoremap <leader>rw :NERDTreeExplore<CR>
-"inoremap <C-t> <esc>:Vex<CR>:term<CR>i
-"tnoremap <C-q> <C-\><C-n>
 nnoremap <leader>l gt
 nnoremap <leader>h gT
 nnoremap <leader><tab> :so ~/.config/nvim/init.vim<CR>
