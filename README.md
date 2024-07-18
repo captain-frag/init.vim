@@ -14,3 +14,5 @@ curl https://raw.githubusercontent.com/prathammpurohit/init.vim/main/init.vim > 
 ```
 :PlugInstall
 ```
+> Cooked!
+![Rick cooked for you](./rick.jpeg)
