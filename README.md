@@ -15,4 +15,7 @@ curl https://raw.githubusercontent.com/prathammpurohit/init.vim/main/init.vim > 
 :PlugInstall
 ```
 > Cooked!
+
 ![Rick cooked for you](./rick.jpeg)
+
+> I am working on the nvim configuration too, and it will be available soon.
