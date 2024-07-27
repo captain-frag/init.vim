@@ -19,8 +19,8 @@ curl https://raw.githubusercontent.com/prathammpurohit/init.vim/main/init.vim > 
 
 ```
 
-    1. ```:w``` (to save the file)  
-    2. ```:source %``` (to source the current file)  
+    1. :w (to save the file)  
+    2. source % (to source the current file)  
 
 3. _Type the following command in the command mode to install all plugins_
 
