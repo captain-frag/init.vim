@@ -12,7 +12,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 
 2. _copy this script and paste it your terminal to get a new copy of .vimrc (once it's done save the file  
-by typing ```:w``` command and finally source it by typing ```source %``_
+by typing ```:w``` command and finally source it by typing ```source %```_
 
 ```
 curl https://raw.githubusercontent.com/prathammpurohit/init.vim/main/init.vim > ~/.vimrc && vim ~/.vimrc
