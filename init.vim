@@ -31,6 +31,7 @@ Plug 'alvan/vim-closetag'
 Plug 'ryanoasis/vim-devicons'
 Plug 'preservim/nerdtree'
 Plug 'andweeb/presence.nvim'
+Plug 'miyakogi/seiya.vim'
 call plug#end()
 let ayucolor = "dark" " mirage and light available too
 
@@ -67,7 +68,7 @@ nnoremap <leader>e :NERDTree<CR>
 nnoremap <leader>rw :NERDTreeExplore<CR>
 nnoremap <leader>l gt
 nnoremap <leader>h gT
-nnoremap <leader><tab> :so ~/.vimrc<CR>
+nnoremap <leader><tab> :so ~/.config/nvim/init.vim<CR>
 inoremap <C-j> <esc>
 nnoremap <leader>w <C-w>
 nnoremap <leader><C-p> :GFiles<CR>
