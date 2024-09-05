@@ -14,29 +14,17 @@ set smartindent
 call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'ajmwagar/vim-deus'
-Plug 'ayu-theme/ayu-vim'
 Plug 'mattn/emmet-vim'
-Plug 'christophermca/meta5'
-Plug 'andreasvc/vim-256noir'
-Plug 'yorickpeterse/happy_hacking.vim'
-Plug 'chase/focuspoint-vim'
 Plug 'tpope/vim-fugitive'
-Plug 'morhetz/gruvbox'
 Plug 'turbio/bracey.vim'
-Plug 'xiyaowong/transparent.nvim'
-Plug 'tribela/vim-transparent'
-Plug 'whatyouhide/vim-gotham'
 Plug 'alvan/vim-closetag'
 Plug 'ryanoasis/vim-devicons'
 Plug 'preservim/nerdtree'
 Plug 'andweeb/presence.nvim'
-Plug 'miyakogi/seiya.vim'
 call plug#end()
-let ayucolor = "dark" " mirage and light available too
 
 "colorscheme
-colorscheme focuspoint 
+colorscheme default 
 
 "nvim discord presence setup
 " General options
@@ -69,7 +57,6 @@ nnoremap <leader>rw :NERDTreeExplore<CR>
 nnoremap <leader>l gt
 nnoremap <leader>h gT
 nnoremap <leader><tab> :so ~/.config/nvim/init.vim<CR>
-inoremap <C-j> <esc>
 nnoremap <leader>w <C-w>
 nnoremap <leader><C-p> :GFiles<CR>
 nnoremap <leader>f :Files<cr>
